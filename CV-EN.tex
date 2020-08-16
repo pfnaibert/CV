@@ -1,0 +1,209 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[10pt, a4paper]{article}
+\usepackage[a4paper, margin=2cm]{geometry} % margins
+
+% =============================================================
+% Basic Packages
+\usepackage[T1]{fontenc}		% Selecao de codigos de fonte.
+\usepackage[utf8]{inputenc}		% Codificacao do documento (conversão automática dos acentos)
+\usepackage[brazilian]{babel}
+\usepackage{microtype}
+\usepackage{indentfirst}
+\usepackage[colorlinks, citecolor=blue, urlcolor=blue, linkcolor=magenta]{hyperref} % 
+\usepackage{xcolor}
+\usepackage{enumitem}
+% \usepackage{fancyhdr}
+% \pagestyle{fancy}
+
+% =============================================================
+% math packages
+\usepackage{mathtools, amsmath, amssymb, amsthm, latexsym}
+
+% =============================================================
+% titling packages
+\usepackage{titlesec}
+\usepackage{titling}
+
+% ==========================================================
+% METADATA
+\author{Paulo Ferreira Naibert}
+\newcommand{\autor}{{Paulo Ferreira Naibert}}
+%\newcommand{\ufrgs}{{Universidade Federal do Rio Grande do Sul}}
+\newcommand{\ufrgs}{{Federal University of Rio Grande do Sul}}
+
+% ============================================================
+% CONFIG
+
+%--------------------------------------
+\titleformat{\section}
+{\bfseries\Large}
+{}
+{0em}
+{}[\titlerule]
+
+%--------------------------------------
+\titleformat{\subsection}
+{\bfseries\large}
+{}
+{0em}
+{}[\vspace{-1 ex}]
+
+%--------------------------------------
+\titleformat{\subsubsection}[runin]
+{\bfseries}
+{}
+{0em}
+{}[---]
+
+% ============================================================
+% maketitle
+\renewcommand{\maketitle}{
+\begin{center}
+{\huge\bfseries\theauthor}
+\\
+% \today
+\\
+\vspace{.25em}
+\textbf{e-mail:} \href{mailto:paulo.naibert@gmail.com}{paulo.naibert@gmail.com} |
+\textbf{Linkedin:} \href{https://www.linkedin.com/in/paulo-naibert}{/paulo-naibert}
+\\
+\textbf{Github:} \href{https://github.com/pfnaibert}{/pfnaibert} |
+\textbf{Lattes:} \href{http://lattes.cnpq.br/1511789633871437}{link}
+\end{center}
+}
+
+% ============================================================
+% Início do documento
+\begin{document}
+\pagenumbering{gobble}
+
+% ============================================================
+% ELEMENTOS PRÉ-TEXTUAIS
+\maketitle
+
+% ============================================================
+% ELEMENTOS TEXTUAIS
+% ============================================================
+\vspace{-12pt}
+\section{Description}
+PhD in Applied Economics at UFRGS.
+My research focused mainly in Stock and Bond Markets.
+In it, I used quantitative methods to form optimal portfolio of those different asset classes.
+I have experience in automating software (R) to form and assess portfolios, inculding visualization of relevant Portfolio measures.
+
+% ============================================================
+\vspace{-12pt}
+\section{Education}
+
+%--------------------------------------
+\subsection{Doctorate: 03/2015 -- 09/2020}
+\textbf{Academic Doctorate in Applied Economics}
+\ufrgs{}
+
+Emphasis on data analysis with R and MATLAB, statistics, econometrics and empirical finance.
+
+\textbf{Thesis:} Essays in Portfolio Optimization
+
+%--------------------------------------
+\vspace{-12pt}
+\subsection{Master's Degree: 03/2013 -- 03/2015}
+\textbf{Academic Master in Applied Economics}
+\ufrgs{}
+
+% Emphasis on data analysis with R and MATLAB, statistics, econometrics, empirical finance, economic modelling, computational methods applied to economics, macroeconomics, microeconomics.
+
+\textbf{Dissertation (In Portuguese):}
+Portfolio Selection under norm constraints: An Analysis of Brazilian Data.
+\href{http://www.lume.ufrgs.br/handle/10183/132904}{Link to Dissertation}
+
+%--------------------------------------
+\vspace{-12pt}
+\subsection{Bachelor: 03/2008 -- 12/2012}
+\textbf{Bachelor in Economic Science}
+\ufrgs{}
+
+% Emphasis on statistics, econometrics, macroeconomics, microeconomics, mathematical economics, capital markets.
+
+\textbf{Graduate Thesis (In Portuguese):}
+Volatility Relationship Between Inflation and Currency Exchange in Brazil (1999-2010)
+\href{http://www.lume.ufrgs.br/handle/10183/38307}{Link to Thesis}
+
+% ============================================================
+\vspace{-6pt}
+\section{Experience}
+
+%--------------------------------------
+\subsection{Research Assistant: 01/01/2010 -- 31/12/2012}
+Auxiliary role composing reports about macroeconomic situation.
+One of the key responsabilities was the search of relevant information about the Economy (mainly Brazilian) on databases such as SGS-BACEN, SIDRA-IBGE, IPEA, etc.
+Making Graphs and Tables for the report presentation about the macroeconomic situation.
+
+%--------------------------------------
+\vspace{-12pt}
+
+\subsection{Teaching Assitant}
+\begin{itemize}[noitemsep]
+
+\item
+National Accounts (Undergraduate Level)
+
+\item
+Modern Portfolio Theory (for Master's Students)
+
+\item
+R applied to Modern Portfolio Theory (for Master's Students)
+\end{itemize}
+
+%--------------------------------------
+\vspace{-12pt}
+\subsection{Referee for Academic Journals}
+RBFin -- Brazilian Review of Finance -- 2016
+\href{http://bibliotecadigital.fgv.br/ojs/index.php/rbfin/article/view/70380/67907}{Link}
+
+% ============================================================
+\vspace{-6pt}
+\section{Publications and Presentations}
+
+\begin{itemize}[noitemsep]
+
+\item
+Selection of optimal portfolios under norm constraints in the allocation vectors: an empirical evaluation with data from BM\&FBovespa (In Portuguese):
+\hspace{2pt}
+\href{http://bibliotecadigital.fgv.br/ojs/index.php/rbfin/article/view/52081}{Link to RBFin}
+\hspace{2pt}
+\href{https://www.anpec.org.br/encontro/2014/submissao/files_I/i8-4ddb23813d689d5ae684d5162e07302a.pdf}{Link to ANPEC 42}
+\hspace{2pt}
+\href{http://bibliotecadigital.fgv.br/ocs/index.php/ebf/15EBFin/paper/view/4971}{Link to EBFIN XV}
+
+\item
+Tangency Portfolio: A Critique
+\href{http://sbfin.org.br/files/relatorio_de_artigos_final.pdf}{Link to EBFIN XIX}
+\end{itemize}
+
+% ============================================================
+\vspace{-12pt}
+\section{Computer Skills}
+
+\textbf{Markup} \LaTeX, markdown, org, pandoc.
+
+\textbf{Statistics and Econometrics}: Eviews, R, MATLAB.
+
+\textbf{Office Suite}: Word, Excel, PowerPoint.
+
+\textbf{General}: Linux, Bash.
+
+\textbf{Text Editors}: Emacs, VIM.
+
+% ============================================================
+\vspace{-6pt}
+\section{Languages}
+
+\textbf{Portuguese}: Native Language
+
+\textbf{English}: Fluent in Reading, Talking and Listening. Advanced Writing.
+
+\textbf{Spanish}: Advanced Reading.
+
+% ============================================================
+\end{document}
+

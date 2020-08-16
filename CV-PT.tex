@@ -1,0 +1,215 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[10pt,a4paper]{article}
+\usepackage[a4paper, margin=2cm]{geometry}   % MARGENS
+
+% =============================================================
+% Basic Packages
+\usepackage[T1]{fontenc}		% Selecao de codigos de fonte.
+\usepackage[utf8]{inputenc}		% Codificacao do documento (conversão automática dos acentos)
+\usepackage[brazilian]{babel}
+\usepackage{microtype}
+\usepackage{indentfirst}
+\usepackage[colorlinks, citecolor=blue, urlcolor=blue, linkcolor=magenta]{hyperref} %
+\usepackage{xcolor}
+\usepackage{enumitem}
+% \usepackage{fancyhdr}
+% \pagestyle{fancy}
+
+% =============================================================
+% math packages
+\usepackage{mathtools, amsmath, amssymb, amsthm, latexsym}
+
+% =============================================================
+% titling packages
+\usepackage{titlesec}
+\usepackage{titling}
+
+% ==========================================================
+% METADATA
+\author{Paulo Ferreira Naibert}
+\newcommand{\autor}{{Paulo Ferreira Naibert}}
+\newcommand{\ufrgs}{{Universidade Federal do Rio Grande do Sul}}
+%\newcommand{\ufrgs}{{Universidade Federal do Rio Gra}}
+
+% ============================================================
+% CONFIG
+
+%--------------------------------------
+\titleformat{\section}
+{\bfseries\Large}
+{}
+{0em}
+{}[\titlerule]
+
+%--------------------------------------
+\titleformat{\subsection}
+{\bfseries\large}
+{}
+{0em}
+{}[\vspace{-6pt}]
+
+%--------------------------------------
+\titleformat{\subsubsection}[runin]
+{\bfseries}
+{}
+{0em}
+{}[---]
+
+% ============================================================
+% maketitle
+\renewcommand{\maketitle}{
+\begin{center}
+{\huge\bfseries\theauthor}
+\\
+% \today
+\\
+\vspace{.25em}
+\textbf{e-mail:} \href{mailto:paulo.naibert@gmail.com}{paulo.naibert@gmail.com} |
+\textbf{Linkedin:} \href{https://www.linkedin.com/in/paulo-naibert}{/paulo-naibert}
+\\
+\textbf{Github:} \href{https://github.com/pfnaibert}{/pfnaibert} |
+\textbf{Lattes:} \href{http://lattes.cnpq.br/1511789633871437}{link}
+\end{center}
+}
+
+% ============================================================
+% Início do documento
+\begin{document}
+\pagenumbering{gobble}
+
+% ============================================================
+% ELEMENTOS PRÉ-TEXTUAIS
+\maketitle
+
+% ============================================================
+% ELEMENTOS TEXTUAIS
+% ============================================================
+\vspace{-1.5 em}
+\section{Resumo}
+\noindent
+Doutor em Economia Aplicada na UFRGS.
+Foco de pesquisa em Mercado Financeiro e Carteiras de Investimento.
+% Experiência em automatizar software (R) para a formação e avaliação de carteiras, incluindo visualização de medidas relevantes para carteiras de investimentos.
+Experiência em programar e automatizar software (R) e análise de dados.
+
+
+% ============================================================
+\vspace{-1.5 em}
+\section{Educação}
+
+%--------------------------------------
+\subsection{Doutorado em Economia Aplicada: 03/2015 -- 09/2019}
+\ufrgs{}
+
+Ênfase em análise de dados com R e MATLAB, estatísitca, econometria e finanças empíricas.
+
+\textbf{Tese:} Essays in Portfolio Opmization
+
+\textbf{Orientador:} João Frois Caldeira
+
+%--------------------------------------
+\vspace{-1 em}
+\subsection{Mestrado em Economia Aplicada: 03/2013 -- 12/2014}
+\ufrgs{}
+
+\textbf{Dissertação:}
+Seleção de carteiras com restrição da norma do vetor de alocação: uma aplicação a dados brasileiros.
+\href{http://www.lume.ufrgs.br/handle/10183/132904}{Link para Dissertação}
+
+\textbf{Orientador:} João Frois Caldeira
+
+%--------------------------------------
+\vspace{-1 em}
+\subsection{Graduação em Ciências Econômicas: 03/2008 -- 12/2012}
+\ufrgs{}
+
+% Emphasis on statistics, econometrics, macroeconomics, microeconomics, mathematical economics, capital markets.
+
+\textbf{TCC:}
+Relação entre as volatilidades da inflação e do câmbio no Brasil (1999-2010)
+\href{http://www.lume.ufrgs.br/handle/10183/38307}{Link para o TCC}
+
+\textbf{Orientador:} Marcelo Savino Portugal
+
+% ============================================================
+\vspace{-1.5 em}
+\section{Experiência}
+
+%--------------------------------------
+\subsection{Bolsista de Iniciação Científica 01/01/2010 -- 31/12/2012}
+\textbf{Orientador:} Marcelo Savino Portugal
+
+Responsabilidades: Auxílio na redação de relatórios sobre conjuntura macroeconômica.
+Responsabilidades principais incluíam busca de informações relevantes sobre a economia nas bases de dados SGS-BACEN, SIDRA-IBGE, IPEA, etc.
+Confecção de gráficos e tabelas para apresentação do relatório sobre conjuntura macroeconômica.
+
+%--------------------------------------
+\vspace{-1 em}
+\subsection{Estágio de Docência}
+
+\textbf{Orientador:} João Frois Caldeira \vspace{-6pt}
+\begin{itemize}[noitemsep]
+
+\item
+Contabilidade Social (Graduação)
+
+\item
+Moderna Teoria do Portfólio (Mestrado)
+
+\item
+R aplicado a Moderna Teoria do Portfólio (Mestrado)
+\end{itemize}
+
+%--------------------------------------
+\vspace{-1 em}
+\subsection{Parecerista para Revistas Acadêmicas}
+
+RBFin - Brazilian Review of Finance - 2016
+\href{http://bibliotecadigital.fgv.br/ojs/index.php/rbfin/article/view/70380/67907}{Link}
+
+% ============================================================
+\vspace{-1.5 em}
+\section{Publicações e Apresentações}
+
+\begin{itemize}[noitemsep]
+\item
+Seleção de carteiras ótimas sob restrições nas normas dos vetores de alocação: uma avaliação empírica com dados da BM\&FBovespa
+\hspace{2pt}
+\href{http://bibliotecadigital.fgv.br/ojs/index.php/rbfin/article/view/52081}{Link to RBFin}
+\hspace{2pt}
+\href{https://www.anpec.org.br/encontro/2014/submissao/files_I/i8-4ddb23813d689d5ae684d5162e07302a.pdf}{Link to ANPEC 42}
+\hspace{2pt}
+\href{http://bibliotecadigital.fgv.br/ocs/index.php/ebf/15EBFin/paper/view/4971}{Link to EBFIN XV}
+
+\item
+Tangency Portfolio: A Critique
+\hspace{2pt}
+\href{http://sbfin.org.br/files/relatorio_de_artigos_final.pdf}{Link to EBFIN XIX}
+\end{itemize}
+
+% ============================================================
+\vspace{-1.5 em}
+\section{Informática}
+
+\textbf{Markup:} \LaTeX, markdown, org, pandoc.
+
+\textbf{Estatística e Econometria:} Eviews, R, MATLAB.
+
+\textbf{Pacote Office:} Word, Excel, PowerPoint.
+
+\textbf{Geral:} Linux, Bash.
+
+\textbf{Editores de Texto:} Emacs, VIM.
+
+% ============================================================
+\vspace{-1.5 em}
+\section{Idiomas}
+
+\textbf{Portugês:} Língua Nativa.
+
+\textbf{Inglês:} Fluente.
+
+\textbf{Espanhol:} Leitura Intermediária.
+
+% ============================================================
+\end{document}
